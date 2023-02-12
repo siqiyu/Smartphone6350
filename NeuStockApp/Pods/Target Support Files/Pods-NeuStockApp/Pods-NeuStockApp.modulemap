@@ -1,0 +1,6 @@
+framework module Pods_NeuStockApp {
+  umbrella header "Pods-NeuStockApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
