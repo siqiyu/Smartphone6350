@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="327" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="CustomTableViewCellXib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="405" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seattle Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aH-bl-4L5">
+                        <rect key="frame" x="5" y="270" width="395" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="kQg-Bf-xlt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seattle3" translatesAutoresizingMaskIntoConstraints="NO" id="HWW-Cx-fBB">
+                        <rect key="frame" x="5" y="5" width="395" height="260"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HWW-Cx-fBB" secondAttribute="trailing" constant="5" id="7cg-mu-8zd"/>
+                    <constraint firstItem="HWW-Cx-fBB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="EIu-kg-xqU"/>
+                    <constraint firstItem="2aH-bl-4L5" firstAttribute="top" secondItem="HWW-Cx-fBB" secondAttribute="bottom" constant="5" id="JkR-U1-0LQ"/>
+                    <constraint firstAttribute="bottom" secondItem="2aH-bl-4L5" secondAttribute="bottom" constant="5" id="L8n-Km-UjM"/>
+                    <constraint firstAttribute="trailing" secondItem="2aH-bl-4L5" secondAttribute="trailing" constant="5" id="RA5-XE-3Su"/>
+                    <constraint firstItem="HWW-Cx-fBB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="WA9-jl-WAQ"/>
+                    <constraint firstItem="2aH-bl-4L5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="dqV-Or-QB6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageContainer" destination="HWW-Cx-fBB" id="CVr-rj-ns3"/>
+                <outlet property="lblImg" destination="2aH-bl-4L5" id="jj9-n5-Pl2"/>
+            </connections>
+            <point key="canvasLocation" x="46.564885496183201" y="78.873239436619727"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Seattle3" width="730" height="487"/>
+    </resources>
+</document>
