@@ -68,8 +68,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tblViewBottom" destination="bkg-BP-W9c" id="t4L-5B-EZo"/>
-                        <outlet property="tblViewTop" destination="bkg-BP-W9c" id="p2u-fX-sCR"/>
+                        <outlet property="tblViewBottom" destination="bkg-BP-W9c" id="fpo-U2-IkY"/>
+                        <outlet property="tblViewTop" destination="wk5-z3-gsf" id="nc0-WS-kuL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

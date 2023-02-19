@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="CustomTableViewFood" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="215" height="249"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="215" height="249"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FoodName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDf-6t-NJu">
+                        <rect key="frame" x="21" y="210" width="168" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="4DM-8Z-bbU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dianxin" translatesAutoresizingMaskIntoConstraints="NO" id="LZD-b8-qRO">
+                        <rect key="frame" x="5" y="5" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="0lG-ZY-fXD"/>
+                            <constraint firstAttribute="width" constant="200" id="7S0-g5-scb"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="JNy-AD-x9X"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="MEx-1f-DeW"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="280" id="Uos-X8-4rM"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="dfm-nH-83A"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="gIh-gr-ZWY"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="gYJ-hO-I8m"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="qm5-RD-wFf"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="rJW-nq-Bv2"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="1Ht-7f-Lv2"/>
+                    <constraint firstItem="qDf-6t-NJu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="2Lm-NM-Ocm"/>
+                    <constraint firstItem="LZD-b8-qRO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="7M7-CS-KQ0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qDf-6t-NJu" secondAttribute="trailing" constant="5" id="8Gs-Fa-wJW"/>
+                    <constraint firstItem="qDf-6t-NJu" firstAttribute="top" secondItem="LZD-b8-qRO" secondAttribute="bottom" constant="5" id="8YT-7U-hBf"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="BYT-g3-7Jz"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="E9u-5u-cxW"/>
+                    <constraint firstItem="LZD-b8-qRO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="EcB-OT-fbo"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="qDf-6t-NJu" secondAttribute="bottom" constant="5" id="F9Y-PB-OGE"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="IpI-E0-ooQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qDf-6t-NJu" secondAttribute="trailing" constant="5" id="RK9-xr-JoO"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="qDf-6t-NJu" secondAttribute="bottom" constant="5" id="SOj-Ne-buU"/>
+                    <constraint firstItem="qDf-6t-NJu" firstAttribute="top" secondItem="LZD-b8-qRO" secondAttribute="bottom" constant="5" id="VUR-ep-ykY"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="bPY-NS-zjC"/>
+                    <constraint firstItem="LZD-b8-qRO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ezQ-Pr-nTv"/>
+                    <constraint firstItem="LZD-b8-qRO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="fky-Uz-dlg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qDf-6t-NJu" secondAttribute="trailing" constant="5" id="gok-ya-W3u"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="grh-Bl-l3C"/>
+                    <constraint firstAttribute="trailing" secondItem="LZD-b8-qRO" secondAttribute="trailing" constant="5" id="jW4-vA-cDy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="FoodName" destination="qDf-6t-NJu" id="FUB-1a-33u"/>
+                <outlet property="ImageFood" destination="LZD-b8-qRO" id="oKU-2H-SEA"/>
+            </connections>
+            <point key="canvasLocation" x="-25.190839694656489" y="18.661971830985916"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dianxin" width="1702" height="1276"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
