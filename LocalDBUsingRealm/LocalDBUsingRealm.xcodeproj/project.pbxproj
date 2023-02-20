@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053768C42982DE2395F61284 /* Pods_LocalDBUsingRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F108304F4889A075ECC97BE5 /* Pods_LocalDBUsingRealm.framework */; };
+		1A64F20429A2A7A30081D5D2 /* StockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64F20329A2A7A30081D5D2 /* StockPrice.swift */; };
 		1AA6C2C829A186B30049B94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6C2C729A186B30049B94D /* AppDelegate.swift */; };
 		1AA6C2CA29A186B30049B94D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6C2C929A186B30049B94D /* SceneDelegate.swift */; };
 		1AA6C2CC29A186B30049B94D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6C2CB29A186B30049B94D /* ViewController.swift */; };
 		1AA6C2CF29A186B30049B94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6C2CD29A186B30049B94D /* Main.storyboard */; };
 		1AA6C2D129A186B40049B94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6C2D029A186B40049B94D /* Assets.xcassets */; };
 		1AA6C2D429A186B40049B94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA6C2D229A186B40049B94D /* LaunchScreen.storyboard */; };
-		1AA6C2DD29A188D20049B94D /* StockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6C2DB29A188D20049B94D /* StockPrice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A64F20329A2A7A30081D5D2 /* StockPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPrice.swift; sourceTree = "<group>"; };
 		1AA6C2C429A186B30049B94D /* LocalDBUsingRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalDBUsingRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA6C2C729A186B30049B94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA6C2C929A186B30049B94D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +27,9 @@
 		1AA6C2D029A186B40049B94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA6C2D329A186B40049B94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA6C2D529A186B40049B94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA6C2DC29A188D20049B94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/StockPrice.swift; sourceTree = "<group>"; };
+		4FD1619BB938D2150766C75D /* Pods-LocalDBUsingRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalDBUsingRealm.debug.xcconfig"; path = "Target Support Files/Pods-LocalDBUsingRealm/Pods-LocalDBUsingRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A5AB0372D65E7A7D77CB0E /* Pods-LocalDBUsingRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalDBUsingRealm.release.xcconfig"; path = "Target Support Files/Pods-LocalDBUsingRealm/Pods-LocalDBUsingRealm.release.xcconfig"; sourceTree = "<group>"; };
+		F108304F4889A075ECC97BE5 /* Pods_LocalDBUsingRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalDBUsingRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053768C42982DE2395F61284 /* Pods_LocalDBUsingRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				1AA6C2C629A186B30049B94D /* LocalDBUsingRealm */,
 				1AA6C2C529A186B30049B94D /* Products */,
+				D66BD3A9FFB9F91DAC0309E7 /* Pods */,
+				F11AF0C7C0C6B30324F8A306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,9 +72,26 @@
 				1AA6C2D029A186B40049B94D /* Assets.xcassets */,
 				1AA6C2D229A186B40049B94D /* LaunchScreen.storyboard */,
 				1AA6C2D529A186B40049B94D /* Info.plist */,
-				1AA6C2DB29A188D20049B94D /* StockPrice.swift */,
+				1A64F20329A2A7A30081D5D2 /* StockPrice.swift */,
 			);
 			path = LocalDBUsingRealm;
+			sourceTree = "<group>";
+		};
+		D66BD3A9FFB9F91DAC0309E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1619BB938D2150766C75D /* Pods-LocalDBUsingRealm.debug.xcconfig */,
+				E5A5AB0372D65E7A7D77CB0E /* Pods-LocalDBUsingRealm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F11AF0C7C0C6B30324F8A306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F108304F4889A075ECC97BE5 /* Pods_LocalDBUsingRealm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AA6C2D829A186B40049B94D /* Build configuration list for PBXNativeTarget "LocalDBUsingRealm" */;
 			buildPhases = (
+				40EC2793A47449556A3A03F6 /* [CP] Check Pods Manifest.lock */,
 				1AA6C2C029A186B30049B94D /* Sources */,
 				1AA6C2C129A186B30049B94D /* Frameworks */,
 				1AA6C2C229A186B30049B94D /* Resources */,
+				14CFF11A8B481718AD87E82C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14CFF11A8B481718AD87E82C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalDBUsingRealm/Pods-LocalDBUsingRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalDBUsingRealm/Pods-LocalDBUsingRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalDBUsingRealm/Pods-LocalDBUsingRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40EC2793A47449556A3A03F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalDBUsingRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AA6C2C029A186B30049B94D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +211,7 @@
 			files = (
 				1AA6C2CC29A186B30049B94D /* ViewController.swift in Sources */,
 				1AA6C2C829A186B30049B94D /* AppDelegate.swift in Sources */,
-				1AA6C2DD29A188D20049B94D /* StockPrice.swift in Sources */,
+				1A64F20429A2A7A30081D5D2 /* StockPrice.swift in Sources */,
 				1AA6C2CA29A186B30049B94D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,14 +233,6 @@
 				1AA6C2D329A186B40049B94D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1AA6C2DB29A188D20049B94D /* StockPrice.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AA6C2DC29A188D20049B94D /* Base */,
-			);
-			name = StockPrice.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,6 +354,7 @@
 		};
 		1AA6C2D929A186B40049B94D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD1619BB938D2150766C75D /* Pods-LocalDBUsingRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +383,7 @@
 		};
 		1AA6C2DA29A186B40049B94D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A5AB0372D65E7A7D77CB0E /* Pods-LocalDBUsingRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
